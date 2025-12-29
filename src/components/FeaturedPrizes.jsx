@@ -9,22 +9,22 @@ export default function FeaturedPrizes() {
         {
             id: 1,
             name: 'DARKNETS CS570',
-            image: '../../public/images/prizes/DARKNETS CS570.png',
+            image: '/images/prizes/DARKNETS_CS570.png',
         },
         {
             id: 2,
             name: 'WOOTING 60HE',
-            image: '../../public/images/prizes/WOOTING 60HE.png',
+            image: '/images/prizes/WOOTING_60HE.png',
         },
         {
             id: 3,
             name: 'WLMOUSE BEAST X MINI PRO',
-            image: '../../public/images/prizes/WLMOUSE BEAST X MINI PRO.png',
+            image: '/images/prizes/WLMOUSEBEASTXMINI_PRO.png',
         },
         {
             id: 4,
             name: 'RIFT C710',
-            image: '../../public/images/prizes/rift c710.png',
+            image: '/images/prizes/rift_c710.png',
         },
         {
             id: 5,
