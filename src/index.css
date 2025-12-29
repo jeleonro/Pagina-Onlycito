@@ -1,0 +1,90 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff00ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc00cc;
+}
+
+/* Utilidades Bootstrap adicionales */
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.gap-4 {
+  gap: 1.5rem;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+
+/* Colores personalizados Magenta/Morado */
+.text-magenta {
+  color: #ff00ff;
+}
+
+.bg-magenta {
+  background-color: #ff00ff;
+}
+
+.border-magenta {
+  border-color: #ff00ff;
+}
+
+/* Enlaces con color magenta */
+a.text-magenta {
+  color: #ff00ff;
+}
+
+a.text-magenta:hover {
+  color: #cc00cc;
+}
