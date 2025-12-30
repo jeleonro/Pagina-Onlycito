@@ -38,7 +38,7 @@ export default function Beneficios() {
     return (
         <div className="min-vh-100 pt-5 pb-5 px-4 bg-white">
             <Container>
-                <h1 className="text-center mb-2 fs-1 fw-bold">Beneficios Exclusivos</h1>
+                {/* <h1 className="text-center mb-2 fs-1 fw-bold">Beneficios Exclusivos</h1>
                 <p className="text-center text-muted mb-5 fs-5">
                     Accede a todos estos beneficios al suscribirte
                 </p>
@@ -49,7 +49,17 @@ export default function Beneficios() {
                             <BenefitCard {...benefit} />
                         </Col>
                     ))}
-                </Row>
+                </Row> */}
+                <h2 style={{textAlign:'center',
+                    color:'blue',
+                    fontSize:'100px',
+                    fontWeight:'bold',
+                }}>404</h2>
+                <p style={{textAlign:'center',
+                    color:'black',
+                    fontSize:'50px',
+                    fontWeight:'bold',
+                }}>NOT FOUND <br />(aun falta xd)</p>
             </Container>
         </div>
     );
