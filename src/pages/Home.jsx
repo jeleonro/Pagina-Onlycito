@@ -62,6 +62,7 @@ export default function Home() {
                 </Container>
             </section>
 
+
             {/* Winners Section */}
             <section className="py-5 px-4" style={{ backgroundColor: '#000', paddingBottom: '280px', position: 'relative' }}>
                 <Container>
@@ -201,6 +202,34 @@ export default function Home() {
                 </Container>
             </section>
 
+            <section>
+                <Container>
+                    <div className='mx-5' style={{
+                        margin: '20px'
+                    }}>
+                        <Row style={{ color: '#F52791', fontSize: '35px', gap: '20px' }}>
+                            <Col md={9} style={{ alignContent: 'center', textTransform: 'uppercase', fontWeight: 'bold', fontStyle: 'italic' }}>Sigueme Para Enterarte De Más Sorteos</Col>
+                            <Col md={2} style={{
+                                display: 'flex',
+                                gap: '13px',
+
+                            }}><a href="https://www.tiktok.com/@OnlyRGX" target='_blank'><div class="betterhover:group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 32 32" fill="#F52791" class="size-4 fill-current" aria-label="Tiktok"><path d="M25.7376 6.41476C24.0142 5.29125 22.7695 3.49253 22.3818 1.39624C22.2979 0.943256 22.252 0.477067 22.252 0H16.751L16.7425 22.0476C16.65 24.5169 14.6182 26.4982 12.1272 26.4982C11.3533 26.4982 10.6237 26.3047 9.98194 25.9667C8.51033 25.1921 7.50259 23.649 7.50259 21.8736C7.50259 19.3235 9.57713 17.249 12.1272 17.249C12.6035 17.249 13.0596 17.3275 13.4916 17.4627V11.8466C13.0448 11.786 12.5903 11.748 12.1272 11.748C6.54224 11.7487 2 16.291 2 21.8744C2 25.3001 3.71169 28.3319 6.32313 30.1648C7.968 31.3194 9.96873 32 12.1264 32C17.7098 32 22.252 27.4578 22.252 21.8744V10.6944C24.4097 12.2429 27.053 13.1559 29.9061 13.1559V7.65483C28.3692 7.65483 26.938 7.19796 25.7384 6.41554L25.7376 6.41476Z" fill="current"></path></svg></div></a>
+                                <a href="https://kick.com/onlyrgx" target="_blank"><img src="/icons/kick.png" alt="" style={{
+                                    height: '40px'
+                                }} /></a>
+                                <a href="https://www.instagram.com/OnlyRGX" target="_blank">
+                                    <div class="betterhover:group-hover:text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                            fill="#F52791" class="size-4 fill-current" aria-label="Instagram">
+                                            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7Zm5.25-.75a1 1 0 1 1 0 2a1 1 0 0 1 0-2Z" />
+                                        </svg>
+                                    </div>
+                                </a> </Col>
+                        </Row>
+                    </div>
+                </Container>
+            </section>
+
             {/* Pricing Section */}
             <section className="py-4 px-6 bg-black">
                 <Container>
@@ -214,19 +243,19 @@ export default function Home() {
                             SUSCRÍBETE A UN PLAN MENSUAL
                         </p>
                         <p style={{
-                                color: '#ffff',
-                                fontWeight: 'bold',
-                                fontSize:'25px',
-                                marginBottom:'20px'
-                            }}> y participa por <strong style={{
-                                color:'red',
-                            }}>TODOS</strong> nuestros premios mensuales</p>
+                            color: '#ffff',
+                            fontWeight: 'bold',
+                            fontSize: '25px',
+                            marginBottom: '20px'
+                        }}> y participa por <strong style={{
+                            color: 'red',
+                        }}>TODOS</strong> nuestros premios mensuales</p>
                     </div>
 
                     <Row className="d-flex g-8 justify-content-center">
                         {pricingPlans.map((plan, i) => (
-                            <Col lg={4} md={6} key={i} style={{height:'400px'}}>
-                                <PricingCard {...plan} recommended={plan.price===16}/>
+                            <Col lg={4} md={6} key={i} style={{ height: '400px' }}>
+                                <PricingCard {...plan} recommended={plan.price === 16} />
                             </Col>
                         ))}
                     </Row>

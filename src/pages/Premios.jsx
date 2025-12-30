@@ -7,25 +7,25 @@ export default function Premios() {
         {
             id: 1,
             name: 'DARKNETS CS570',
-            image: 'https://images.unsplash.com/photo-1587829191301-7acb349b69f7?w=300&h=300&fit=crop',
+            image: '/images/prizes/DARKNETS_CS570.png',
             descripcion: 'Mouse gaming de alta precisión'
         },
         {
             id: 2,
             name: 'WOOTING 60HE',
-            image: 'https://images.unsplash.com/photo-1587829191301-7acb349b69f7?w=300&h=300&fit=crop',
+            image: '/images/prizes/WOOTING_60HE.png',
             descripcion: 'Teclado mecánico gaming'
         },
         {
             id: 3,
             name: 'WLMOUSE BEAST X MINI PRO',
-            image: '../../public/images/prizes/WLMOUSE BEAST X MINI PRO.png',
+            image: '/images/prizes/WLMOUSEBEASTXMINI_PRO.png',
             descripcion: 'Mouse inalámbrico compacto'
         },
         {
             id: 4,
             name: 'RIFT C710',
-            image: 'https://images.unsplash.com/photo-1589241468327-c6b70f8ffe35?w=300&h=300&fit=crop',
+            image: '/images/prizes/rift_c710.png',
             descripcion: 'Control gaming profesional'
         },
         {
@@ -97,13 +97,13 @@ export default function Premios() {
                                 />
                             </Col>
                             <Col md={4}>
-                                <p style={{ color: '#ff00ff', fontSize: '12px', fontWeight: 'bold', marginBottom: '10px', textTransform: 'uppercase' }}>
+                                <p style={{ color: '#ff00ff', fontSize: '25px', fontWeight: 'bold', marginBottom: '10px', textTransform: 'uppercase' }}>
                                     PREMIO DESTACADO
                                 </p>
                                 <h2 style={{ color: '#000', fontSize: '32px', fontWeight: 'bold', marginBottom: '15px', textTransform: 'uppercase', fontStyle: 'italic' }}>
                                     {premios[1].name}
                                 </h2>
-                                <p style={{ color: '#ff00ff', fontSize: '14px', fontWeight: 'bold' }}>
+                                <p style={{ color: '#ff00ff', fontSize: '16px', fontWeight: 'bold', fontStyle:'italic'}}>
                                     FECHA: jue. 28 ago
                                 </p>
                             </Col>
@@ -181,7 +181,7 @@ export default function Premios() {
                                 >
                                     <div style={{
                                         width: '100%',
-                                        height: '250px',
+                                        height: '300px',
                                         overflow: 'hidden',
                                         borderBottom: '2px solid #ff00ff',
                                     }}>

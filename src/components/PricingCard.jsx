@@ -19,7 +19,7 @@ export default function PricingCard({ name, price, features, recommended = false
                     textTransform: 'uppercase',
                     letterSpacing: '0.5px',
                 }}>
-                    ⭐ Recomendado
+                    Recomendado
                 </div>
             )}
             <Card.Body className="d-flex flex-column">
