@@ -59,7 +59,7 @@ export default function HeroSection() {
                                 lineHeight: '1',
                             }}
                         >
-                            <img src="../../public/image1.png" alt="" style={{height:'100%', borderRadius:'50px'}} />
+                            <img src="/images/person/image1.png" alt="" style={{height:'100%', borderRadius:'50px'}} />
                         </div>
                         <p
                             className="mt-3"
