@@ -7,7 +7,7 @@ export default function Header() {
         <Navbar bg="black" expand="lg" sticky="top" className="py-3">
             <Container>
                 <Navbar.Brand as={Link} to="/" className="fw-bold fs-4" style={{ color: '#ff00ff' }}>
-                    LOGO ONLYRGX*
+                    <img src="/icons/logo.png" alt="" style={{height:'50px', marginLeft:'70px'}}/>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -131,8 +131,8 @@ export default function Premios() {
                 </div>
 
                 {/* Countdown Section */}
-                <section className="py-4 px-4" style={{ backgroundColor: '#1a1a1a', marginBottom: '60px' }}>
-                    <Countdown />
+                <section className="py-4 px-4" style={{ position: 'block',backgroundColor: 'transparent', marginBottom: '60px' }}>
+                    <Countdown isFixed={false} />
                 </section>
 
                 {/* All Prizes Grid */}

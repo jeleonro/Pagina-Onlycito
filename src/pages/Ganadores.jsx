@@ -54,9 +54,9 @@ export default function Ganadores() {
 
                 {/* Winners Grid - Horizontal Zig Zag */}
                 <div style={{
-                    marginTop: '100px',
+                    marginTop: 'clamp(50px, 10vw, 100px)',
                     display: 'flex',
-                    gap: '20px',
+                    gap: 'clamp(10px, 3vw, 20px)',
                     justifyContent: 'center',
                     alignItems: 'flex-start',
                     flexWrap: 'wrap',
@@ -64,15 +64,15 @@ export default function Ganadores() {
                 }}>
                     {ganadores.map((ganador, index) => (
                         <div key={ganador.id} style={{
-                            border: '4px solid #ff00ff',
+                            border: 'clamp(2px, 1vw, 4px) solid #ff00ff',
                             borderRadius: '16px',
                             overflow: 'hidden',
-                            height: '280px',
-                            width: '240px',
+                            height: 'clamp(200px, 50vw, 280px)',
+                            width: 'clamp(150px, 40vw, 240px)',
                             background: '#fff',
                             flexShrink: 0,
                             position: 'relative',
-                            marginTop: (index % 2 === 1) ? '80px' : '0px',
+                            marginTop: (index % 2 === 1) ? 'clamp(30px, 10vw, 80px)' : '0px',
                             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                             cursor: 'pointer',
                         }}

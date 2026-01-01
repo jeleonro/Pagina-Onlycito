@@ -7,17 +7,17 @@ export default function HeroSection() {
             style={{
                 minHeight: '100vh',
                 background: 'linear-gradient(135deg, #000000 0%, #1a0033 100%)',
-                padding: '80px',
+                padding: 'clamp(20px, 5vw, 80px)',
             }}
         >
-            <Container fluid style={{ marginLeft: '80px', marginRight: '80px'}}>
+            <Container fluid style={{ marginLeft: 'clamp(20px, 5vw, 80px)', marginRight: 'clamp(20px, 5vw, 80px)'}}>
                 <Row className="align-items-center">
                     <Col lg={6} className="text-white mb-5 mb-lg-0">
                         <h1
                             className="fw-bold mb-4"
                             style={{
                                 color: '#ff00ff',
-                                fontSize: 'clamp(90px, 2vw, 60px)',
+                                fontSize: 'clamp(32px, 8vw, 80px)',
                                 lineHeight: '1.1',
                                 textTransform: 'uppercase',
                                 letterSpacing: '2px',
@@ -29,7 +29,7 @@ export default function HeroSection() {
                         <p
                             className="mb-5"
                             style={{
-                                fontSize: '18px',
+                                fontSize: 'clamp(14px, 2.5vw, 18px)',
                                 lineHeight: '1.6',
                                 color: '#f1f1f1',
                             }}
@@ -59,7 +59,7 @@ export default function HeroSection() {
                                 lineHeight: '1',
                             }}
                         >
-                            <img src="/images/person/image1.png" alt="" style={{height:'100%', borderRadius:'50px'}} />
+                            <img src="/images/person/atudo.png" alt="" style={{height:'100%', borderRadius:'50px'}} />
                         </div>
                         <p
                             className="mt-3"

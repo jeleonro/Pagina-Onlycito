@@ -43,7 +43,7 @@ export default function Login() {
                     {/* Left Section - Image */}
                     <Col lg={6} className="d-none d-lg-block">
                         <img
-                            src="/images/person/image.png"
+                            // src="/images/person/atudo.png"
                             alt="Login"
                             style={{
                                 width: '100%',
