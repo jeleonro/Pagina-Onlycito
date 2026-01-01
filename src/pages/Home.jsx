@@ -262,7 +262,7 @@ export default function Home() {
             {/* FAQ Section */}
             <section className="py-5 px-4 bg-light">
                 <Container className="mw-md-100" style={{ maxWidth: '600px' }}>
-                    <h2 className="text-center mb-5 fs-1 fw-bold">Demoni@, ¿tienes dudas?</h2>
+                    <h2 className="text-center mb-5 fs-1 fw-bold">Ti@ De Sistemas, ¿tienes dudas?</h2>
 
                     <div>
                         {faqs.map((faq, i) => (

@@ -24,7 +24,7 @@ export default function HeroSection() {
                             }}
                         >
                             ÚNETE A LOS<br />
-                            DEMONIOS
+                            TIOS - OIJI OIJI
                         </h1>
                         <p
                             className="mb-5"
